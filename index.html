@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yahve Cloth | Premium Custom Prints</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">YAHVE</a>
+      <div class="nav-links desktop-only">
+        <a href="#hero">Home</a>
+        <a href="#work">Work</a>
+        <a href="#brands">Brands</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="menu-btn mobile-only" id="menu-btn" aria-label="Menu">
+        <div class="menu-icon"></div>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="mobile-nav-links">
+      <a href="#hero" class="mobile-link">Home</a>
+      <a href="#work" class="mobile-link">Work</a>
+      <a href="#brands" class="mobile-link">Brands</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content reveal">
+      <h1 class="hero-title">Designed to<br>Stand Out.</h1>
+      <p class="hero-subtitle">Premium custom prints for brands, events, and individuals.</p>
+      <a href="#work" class="btn btn-primary hero-btn">View Work</a>
+    </div>
+  </section>
+
+  <!-- Work Section -->
+  <section class="work" id="work">
+    <div class="section-container">
+      <h2 class="section-title reveal">Our Work</h2>
+      
+      <!-- Category: T-Shirts -->
+      <div class="category reveal">
+        <div class="category-header">
+          <h3 class="category-title">T-Shirts</h3>
+          <div class="carousel-controls">
+            <button class="carousel-btn prev-btn" aria-label="Previous" data-target="carousel-tshirts">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+            </button>
+            <button class="carousel-btn next-btn" aria-label="Next" data-target="carousel-tshirts">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="carousel" id="carousel-tshirts">
+          <div class="carousel-track">
+            <div class="product-card">
+              <img src="./public/images/oversize.png" alt="Black premium t-shirt" loading="lazy">
+              <div class="product-overlay"><span>Heavyweight Black</span></div>
+            </div>
+            <div class="product-card">
+              <img src="./public/images/Yahve_tee.jpeg" alt="White premium t-shirt model" loading="lazy">
+              <div class="product-overlay"><span>Essential White</span></div>
+            </div>
+            <div class="product-card">
+              <img src="./public/images/aust group pic.jpeg" alt="Premium Print" loading="lazy">
+              <div class="product-overlay"><span>Custom Print</span></div>
+            </div>
+            <div class="product-card">
+              <img src="./public/images/oversize fit.png" alt="Oversized Fit" loading="lazy">
+              <div class="product-overlay"><span>Oversized Fit</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category: Mugs -->
+      <div class="category reveal">
+        <div class="category-header">
+          <h3 class="category-title">Mugs</h3>
+          <div class="carousel-controls">
+            <button class="carousel-btn prev-btn" aria-label="Previous" data-target="carousel-mugs">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+            </button>
+            <button class="carousel-btn next-btn" aria-label="Next" data-target="carousel-mugs">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="carousel" id="carousel-mugs">
+          <div class="carousel-track">
+            <div class="product-card">
+              <img src="./public/images/Aust_mug.jpg" alt="Matte black ceramic mug" loading="lazy">
+              <div class="product-overlay"><span>Matte Black Ceramic</span></div>
+            </div>
+            <div class="product-card">
+              <img src="./public/images/aust mug2.jpeg" alt="Glossy white ceramic mug" loading="lazy">
+              <div class="product-overlay"><span>Glossy White</span></div>
+            </div>
+            <div class="product-card">
+              <img src="./public/images/mug-1.png" alt="Custom branded mug" loading="lazy">
+              <div class="product-overlay"><span>Branded Edition</span></div>
+            </div>
+            <div class="product-card">
+              <img src="./public/images/mug1.jpeg" alt="Corporate gift mug" loading="lazy">
+              <div class="product-overlay"><span>Corporate Gift</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category: Caps -->
+      <div class="category reveal">
+        <div class="category-header">
+          <h3 class="category-title">Caps</h3>
+          <div class="carousel-controls">
+            <button class="carousel-btn prev-btn" aria-label="Previous" data-target="carousel-caps">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+            </button>
+            <button class="carousel-btn next-btn" aria-label="Next" data-target="carousel-caps">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="carousel" id="carousel-caps">
+          <div class="carousel-track">
+            <div class="product-card">
+              <img src="./public/images/aust cap.jpeg" alt="Black baseball cap" loading="lazy">
+              <div class="product-overlay"><span>Structured Snapback</span></div>
+            </div>
+            <div class="product-card">
+              <img src="./public/images/cap-2.png" alt="White dad cap" loading="lazy">
+              <div class="product-overlay"><span>Classic Dad Hat</span></div>
+            </div>
+            <div class="product-card">
+              <img src="./public/images/SI Cap.jpeg" alt="Embroidered cap" loading="lazy">
+              <div class="product-overlay"><span>3D Embroidery</span></div>
+            </div>
+            <div class="product-card">
+              <img src="./public/images/cap2.jpeg" alt="Premium canvas cap" loading="lazy">
+              <div class="product-overlay"><span>Premium Canvas</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category: Tote Bags -->
+      <div class="category reveal">
+        <div class="category-header">
+          <h3 class="category-title">Tote Bags</h3>
+          <div class="carousel-controls">
+            <button class="carousel-btn prev-btn" aria-label="Previous" data-target="carousel-totes">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+            </button>
+            <button class="carousel-btn next-btn" aria-label="Next" data-target="carousel-totes">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="carousel" id="carousel-totes">
+          <div class="carousel-track">
+            <div class="product-card">
+              <img src="./public/images/tote-1.png" alt="Heavy black canvas tote" loading="lazy">
+              <div class="product-overlay"><span>Heavyweight Black</span></div>
+            </div>
+            <div class="product-card">
+              <img src="./public/images/tote-2.png" alt="Off-white natural tote" loading="lazy">
+              <div class="product-overlay"><span>Natural Canvas</span></div>
+            </div>
+            <div class="product-card">
+              <img src="./public/images/tote-1.png" alt="Market tote" loading="lazy">
+              <div class="product-overlay"><span>Market Tote</span></div>
+            </div>
+            <div class="product-card">
+              <img src="./public/images/tote-2.png" alt="Everyday tote" loading="lazy">
+              <div class="product-overlay"><span>Everyday Tote</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category: Flyers -->
+      <div class="category reveal">
+        <div class="category-header">
+          <h3 class="category-title">Flyers</h3>
+          <div class="carousel-controls">
+            <button class="carousel-btn prev-btn" aria-label="Previous" data-target="carousel-flyers">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+            </button>
+            <button class="carousel-btn next-btn" aria-label="Next" data-target="carousel-flyers">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="carousel" id="carousel-flyers">
+          <div class="carousel-track">
+            <div class="product-card">
+              <img src="./public/images/flyer-1.png" alt="Minimalist flyer" loading="lazy">
+              <div class="product-overlay"><span>Matte Finish Card</span></div>
+            </div>
+            <div class="product-card">
+              <img src="./public/images/flyer-2.png" alt="Bold event poster" loading="lazy">
+              <div class="product-overlay"><span>Glossy Event Poster</span></div>
+            </div>
+            <div class="product-card">
+              <img src="./public/images/flyer-1.png" alt="Corporate flyer" loading="lazy">
+              <div class="product-overlay"><span>Corporate Handout</span></div>
+            </div>
+            <div class="product-card">
+              <img src="./public/images/flyer-2.png" alt="Art exhibition flyer" loading="lazy">
+              <div class="product-overlay"><span>Exhibition Print</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Brands Section -->
+  <section class="brands" id="brands">
+    <div class="section-container">
+      <h2 class="section-title reveal">Trusted By</h2>
+      <div class="brands-grid reveal">
+        <div class="brand-logo">
+           <img src="./public/images/aust_logo-removebg-preview.png" alt="">
+        </div>
+        <div class="brand-logo">
+            <img src="./public/images/Rotary Abuja.png" alt="">
+        </div>
+        <div class="brand-logo">  <img src="./public/images/Pastry_Desert_Logo.png" alt=""></div>
+        <div class="brand-logo">  <img src="./public/images/Layerstack_logo.png" alt=""></div>
+        <div class="brand-logo">  <img src="./public/images/Hech_Logo.png" alt=""></div>
+        <div class="brand-logo">  <img src="./public/images/Tredah_Logo.png" alt=""></div>
+        <div class="brand-logo">  <img src="./public/images/Clnx_logo.png" alt=""></div>
+        <div class="brand-logo">OVER 200+ PEOPLE</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="features" id="features">
+    <div class="section-container">
+      <h2 class="section-title reveal">The Standard</h2>
+      <div class="features-grid reveal">
+        <div class="feature-card">
+          <h3 class="feature-title">High Quality</h3>
+          <p class="feature-desc">Premium materials and state-of-the-art printing techniques.</p>
+        </div>
+        <div class="feature-card">
+          <h3 class="feature-title">Fast Turnaround</h3>
+          <p class="feature-desc">Efficient production to meet your tightest deadlines.</p>
+        </div>
+        <div class="feature-card">
+          <h3 class="feature-title">Bulk Orders</h3>
+          <p class="feature-desc">Scalable capacity for large-scale events and brand merch.</p>
+        </div>
+        <div class="feature-card">
+          <h3 class="feature-title">Custom Designs</h3>
+          <p class="feature-desc">Flawless execution of your most complex creative ideas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="section-container text-center reveal">
+      <h2 class="contact-title">Let's Work.</h2>
+      <p class="contact-subtitle">Ready to bring your idea to life?</p>
+      
+      <div class="contact-links">
+        <a href="tel:+2349060703875" class="contact-link">+234 906 070 3875</a>
+        <a href="https://instagram.com/yahve_brand" target="_blank" rel="noopener noreferrer" class="contact-link">@yahvebrand</a>
+      </div>
+      
+      <div class="contact-cta">
+        <a href="https://wa.me/2349060703875" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="section-container">
+      <p>&copy; 2026 Yahve. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/2349060703875" target="_blank" rel="noopener noreferrer" class="floating-wa" aria-label="Chat on WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.405-.883-.733-1.48-1.64-1.653-1.938-.173-.298-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+    </svg>
+  </a>
+
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
